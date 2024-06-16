@@ -2,13 +2,16 @@
   "name": "modern_website",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://RushiPatel0068.github.io/Modern_Portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy":"gh-pages -d dist"
   },
   "author": "Rushi Patel",
   "license": "MIT",
   "description": "",
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "node-sass": "^9.0.0"
   }
 }
